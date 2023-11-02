@@ -40,6 +40,8 @@ nav {
     margin: 0;
     font-family: Nunito Sans, sans-serif;
   }
+
+
   
   nav ul li {
     display: inline-block;
@@ -67,4 +69,19 @@ nav {
   
   nav ul li a:hover::after {
     width: 65%;
+  }
+
+  @media screen and (max-width: 400px){
+    nav ul {
+      font-size: 13px;
+      text-align:center;
+      padding:0;
+    }
+    nav ul li{
+      margin: 15px;
+    }
+
+    .logo img{
+      display:none;
+    }
   }
