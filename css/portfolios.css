@@ -174,8 +174,8 @@ body {
 
 .sub-container {
   display: flex;
-  height: 55vh;
-  width: 85vw;
+  height: 54vh;
+  width: 80vw;
   background-color: #050301;
   transition-duration: 0.4s;
   border-radius: 20px;
@@ -225,25 +225,25 @@ body {
 }*/
 
 #zenary-img {
-  background-image: url(Enscape_2023-07-30-21-32-31.png);
+  background-image: url('../images/zenary-bg.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #projhome-img {
-  background-image: url(hehe.png);
+  background-image: url('../images/projhome-bg.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #vivarium-img {
-  background-image: url(lmao.jpg);
+  background-image: url('../images/vivarium-bg.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #misc-img {
-  background-image: url(lala.png);
+  background-image: url('../images/misc-bg.jpg');
   background-size: cover;
   background-position: center;
 }
