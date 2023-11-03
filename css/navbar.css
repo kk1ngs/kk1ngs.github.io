@@ -71,7 +71,7 @@ nav {
     width: 65%;
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 450px){
     nav ul {
       font-size: 4vw;
       text-align:center;
