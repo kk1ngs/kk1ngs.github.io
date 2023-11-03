@@ -73,7 +73,7 @@ nav {
 
   @media screen and (max-width: 400px){
     nav ul {
-      font-size: 13px;
+      font-size: 4.5vw;
       text-align:center;
       padding:0;
     }
