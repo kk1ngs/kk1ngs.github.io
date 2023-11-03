@@ -48,6 +48,7 @@ body {
 
 .landingcontainer {
   height: 100vh;
+  height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,11 +308,11 @@ body {
   }
 
   .about-image img{
-    width:60vw;
+    width:50vw;
   }
 
   .about-text {
-    padding-top: 4vh;
+    padding-top: 1vh;
     width: 80vw;
   }
 
@@ -321,7 +322,7 @@ body {
   }
 
   .about-text p {
-    font-size: 1.4ch;
+    font-size: 1.5ch;
     text-align:justify;
   }
 
