@@ -472,7 +472,7 @@ body {
   }
 
   .card-body {
-    min-width: 450px;
+    min-width: 90vw;
   }
 
 }
