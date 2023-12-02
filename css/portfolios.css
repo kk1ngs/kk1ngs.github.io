@@ -475,4 +475,8 @@ body {
     min-width: 90vw;
   }
 
+  ::-webkit-scrollbar {
+    all:unset;
+}
+
 }
