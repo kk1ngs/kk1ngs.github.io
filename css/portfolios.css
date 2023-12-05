@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -24,6 +25,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #afafaf;
 }
+
 
 body {
   background-color: #050301 !important; /*important tag can be removed in VSCode!*/
@@ -112,14 +114,15 @@ body {
   padding-left: 3.5vw;
   margin: 0;
   color:#050301;
+  cursor: default;
 }
 
 .anchor {
   position: relative;
 }
 
-.anchor #aboutme-header,
-.anchor #projects-header {
+.anchor #about,
+.anchor #projects{
   position: absolute;
   left: 0;
   top: -84px;
@@ -301,13 +304,33 @@ body {
   bottom: -5px;
   background:#d4d4d4;
   height: 2px;
-  transition-property: width;
   transition-duration: 0.7s;
   transition-timing-function: ease-in-out;
 }
 
 .learnmoreunderline:hover::after{
   width: 200%;
+}
+
+.comingsoonunderline{
+  color:#d4d4d4;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.comingsoonunderline::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20%;
+  bottom: -5px;
+  background:#d4d4d4;
+  height: 2px;
 }
 
 #zenary-img {
@@ -352,7 +375,7 @@ body {
 /**/
 
 .connectcontainer {
-  background-image: url('../images/torontotest3.png');
+  background-image: url('../images/torontotest2.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -366,13 +389,7 @@ body {
 #connect-text p{
   display:flex;
   font-size: 2.5rem;
-  justify-content: space-evenly;
-}
-
-.socials{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 30px;
 }
 
 .portfolio-logo{
@@ -394,7 +411,8 @@ body {
 .socials img{
   height: 2.5em;
   margin-bottom: 1rem;
-  padding-right: 20px;
+  padding-right: 18px;
+  padding-left: 3px;
   transition-duration: 0.3s;
   opacity:0.8;
 }
@@ -404,8 +422,8 @@ body {
 }
 
 
-
 @media screen and (max-width: 450px) {
+
   .title{
     font-size: 6.5vw;
   }
@@ -477,6 +495,6 @@ body {
 
   ::-webkit-scrollbar {
     all:unset;
-}
+  }
 
 }

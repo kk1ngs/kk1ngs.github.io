@@ -26,18 +26,17 @@
 }
 
 body {
-    background-color: #050301 !important; /*important tag can be removed in VSCode!*/
+    background-color: #050301;
     overflow-x: hidden;
     -webkit-animation: fadein 0.8s ease;
     animation: fadein 0.8s ease;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #d4d4d4;
-
-
 }
 
 @-webkit-keyframes fadein {from {opacity: 0;} to {opacity: 1;}}
 @keyframes fadein {from {opacity: 0;} to {opacity: 1;}}
+
 
 /**/
 /**/
@@ -50,7 +49,7 @@ body {
 /**/
 
 .feature-container {
-    height: 65vh;
+    height: 60vh;
     background-color: #3a3a3a;
     /*there will be background image.*/
     display: flex;
@@ -80,13 +79,18 @@ body {
 }
 
 #zenary-featured-image {
-    background-image: url(zenary.png);
+    background-image: url("../images/zenary/zenary-hero.png");
     background-size: cover;
 }
 
 #vivarium-featured-image {
-    background-image: url(dsdfsdfsdf.jpg);
+    background-image: url("../images/vivarium-bg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#kadenkoca-featured-image {
+    background-image: url("../images/testing7.png");
     background-size: cover;
 }
 
@@ -98,7 +102,7 @@ body {
 
 .feature-text h1 {
     font-weight: 600;
-    font-size: 12vh;
+    font-size: 11vh;
 }
 
 .feature-text p {
@@ -106,102 +110,45 @@ body {
     line-height: 1rem;
 }
 
-/**/
-/**/
-/**/
-
-/*Content Container*/
-
-/**/
-/**/
-/**/
-
-/*.fullcontainer {
-    background-color: black;
-    height: 10vh;
-    line-height: 1rem;
-}
-
-.fullcontainer {
-    height: 200vh;
-    display: flex;
-    padding: 3vw 15vw 0 15vw;
-}
-
-.facts {
-    box-shadow: 0 0 0px white;
-    font-size: 2.5vh;
-    line-height: 4vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 2vw;
-
-}
-
-.placeholder{
-    background-color: white;
-    height: 15vw;
-    width: 30vw;
-}
-
-
-.software {
-    height: 30vh;
-    font-size: 25px;
-    display: flex;
-    row-gap: 10px;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.cards {
-    width: 11vw;
-    height: 2vw;
-    border-radius: 5px;
-    line-height: 2vw;
-    font-size: 1.2vw;
-}
-
-.carousel-control-prev{
-    filter: invert(100%);
-}
-
-.carousel-control-next{
-    filter: invert(100%);
-}
-
-*/
-
-.fullcontainer{
-    height: 100vh;
-    display: flex;
-    padding: 2vw 5vw;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.moos{
-    font-size: 1.2rem;
-}
-
 .thin{
     background-color: #d4d4d4;
-    height: 2px;
-    width: 100%;
-    margin: 1.5vw 0 1.5vw 0;
+    height:5px;
+    width: 9%;
 }
 
-.paragraphs{
-    line-height: 2.7rem;
+.textcontainer{
+    padding-top: 4vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100vw;
+    height: 40vh;
+    display:flex;
+    background-color: #0f0f0f;
+
 }
 
+.left{
+    width:35%;
+    font-size:1.3rem;
+    padding-right: 30px;
+}
 
-.allimages{
+.right{
+    width:65%;
+    padding-left: 30px;
+    font-size:1.5rem;
+}
+
+.drawingset{
+    height:500vh;
+    background-color: #0f0f0f;
+}
+
+.drawingset img{
+    padding-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    opacity:0.85;
-    padding: 10px;
+    width: 70%;
 }
+/* back to top button needed!! */
