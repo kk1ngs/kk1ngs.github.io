@@ -84,7 +84,7 @@ body {
 }
 
 #vivarium-featured-image {
-    background-image: url("../images/vivarium-bg.jpg");
+    background-image: url("../images/vivarium/vivarium-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
