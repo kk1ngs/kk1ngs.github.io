@@ -129,6 +129,8 @@ body {
     width:55vw;
     font-size: 1.35rem;
     line-height: 2.1rem;
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 .right{

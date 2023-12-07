@@ -343,7 +343,7 @@ body {
 
 
 #projhome-img {
-  background-image: url('../images/projhome-bg.jpg');
+  background-image: url('../images/gallery/3.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -355,7 +355,7 @@ body {
 }
 
 #misc-img {
-  background-image: url('../images/gallery/10.jpg');
+  background-image: url('../images/gallery/16.jpg');
   background-size: cover;
   background-position: center;
 } 
@@ -385,13 +385,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Staatliches', sans-serif;
+  /* font-family: 'Staatliches', sans-serif; */
 }
 
 #contact p{
   display:flex;
-  font-size: 2.5rem;
-  padding-left: 30px;
+  font-size: 2.2rem;
+  font-weight: 400;
 }
 
 .portfolio-logo{
@@ -410,11 +410,15 @@ body {
   opacity:1;
 }
 
+.socials{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
 .socials img{
   height: 2.5em;
   margin-bottom: 1rem;
   padding-right: 18px;
-  padding-left: 3px;
   transition-duration: 0.3s;
   opacity:0.8;
 }
