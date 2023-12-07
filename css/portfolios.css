@@ -388,7 +388,7 @@ body {
   font-family: 'Staatliches', sans-serif;
 }
 
-#connect-text p{
+#contact p{
   display:flex;
   font-size: 2.5rem;
   padding-left: 30px;
@@ -480,12 +480,12 @@ body {
     text-align:justify;
   }
 
-  #connect-text{
+  #contact{
   flex-direction: column;
   align-items: center;
   }
 
-  #connect-text p{
+  #contact p{
     display: none;
   }
 
