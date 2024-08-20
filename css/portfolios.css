@@ -335,6 +335,12 @@ body {
   height: 2px;
 }
 
+#e2-img {
+  background-image: url('../images/Image5.png');
+  background-size: cover;
+  background-position: center;
+}
+
 #zenary-img {
   background-image: url('../images/zenary-bg-2.jpg');
   background-size: cover;
